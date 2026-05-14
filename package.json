@@ -8,22 +8,40 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "4.17.1",
-    "lodash": "4.17.19",
-    "mongoose": "5.9.10",
-    "jsonwebtoken": "8.5.1",
-    "bcrypt": "3.0.6",
-    "axios": "0.19.2",
-    "moment": "2.24.0",
-    "validator": "10.11.0",
     "dotenv": "8.2.0",
     "mysql": "2.18.1",
-    "xml2js": "0.4.19"
+    "axios": "1.8.2",
+    "lodash": "4.18.0",
+    "validator": "13.15.22",
+    "jsonwebtoken": "9.0.0",
+    "bcrypt": "5.0.0",
+    "xml2js": "0.5.0",
+    "mongoose": "5.13.23",
+    "moment": "2.29.4",
+    "express": "4.20.0"
   },
   "devDependencies": {
     "nodemon": "1.19.4"
   },
-  "keywords": ["vulnerable", "security", "testing"],
+  "keywords": [
+    "vulnerable",
+    "security",
+    "testing"
+  ],
   "author": "Test",
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "follow-redirects": "1.16.0",
+    "minimatch": "3.1.4",
+    "brace-expansion": "1.1.13",
+    "qs": "6.14.2",
+    "tar": "7.5.11",
+    "mquery": "3.2.3",
+    "send": "0.19.0",
+    "path-to-regexp": "0.1.13",
+    "serve-static": "2.1.0",
+    "mpath": "0.8.4",
+    "body-parser": "1.20.3",
+    "cookie": "0.7.0"
+  }
 }
